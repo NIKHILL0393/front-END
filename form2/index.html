@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="#" name="Train Ticket Reservation " onsubmit="return(validate());">
+        <table cellpadding="2" width="30%" cellspacing="2"text-align="center">
+            <tr> 
+                <td colspan="2">
+                    <center><font-size="4"><b>Train Ticket Reservation </b></font-size></center>
+                 </td>
+            </tr> 
+            <tr> 
+                <td>From:</td>
+                <td><input type="text"name="from"size="40"></td>
+            </tr> 
+            <tr>
+                <td>To:</td>
+                <td><input type="text"name="to"size="40"></td>
+            </tr>
+            <tr>
+                <td>Train No./Name :</td>
+                <td><input type="text"name="train no."size="20"></td>
+            </tr>
+            <tr>
+                <td>Class :</td>
+                <td><select name="class">
+                    <option value="-1" selected>Select</option>
+                    <option value="2s">2S</option>
+                    <option value="1AC">1AC</option>
+                    <option value="2AC">2AC</option>
+                    <option value="3AC">3AC</option>
+                    <option value="SL">SL</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>No of seats :</td>
+                <td><select name="no of seats">
+                    <option value="-1" selected>Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><input type="text" name="address"size="40"></td>
+            </tr>
+            <tr><td>Passenger :</td>
+                <td><input type="text"name="passenger"size="20"></td>
+                <td><input type="text"name="passenger"size="20"></td>
+                <td><input type="text"name="passenger"size="20"></td>
+            </tr>
+            <tr><td>Age :</td>
+                <td><input type="text"name="age"size="5"></td>
+                <td><input type="text"name="age"size="5"></td>
+                <td><input type="text"name="age"size="5"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                    <td><select name="gender">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select></td>
+                    <td><select name="gender">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select></td>
+                    <td><select name="gender">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Payment Mode :</td>
+                <td><input type="radio"name="payment mode"value="credit/debit card">Credit/Debit Card</td>
+                <td><input type="radio"name="payment mode"value="wallet/upi">Wallet/UPI</td><br>
+                <td><input type="radio"name="payment mode"value="Net Banking">Net Banking</td>
+            </tr>
+            <tr>
+                <td>Mobile No :</td>
+                <td><input type="number"name="mobile no"size="10"></td>
+            </tr>
+            <tr>
+                <td><input type="text" value ="Submit Form"size="10"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" value="Reset"size="5"></td>
+            </tr>
+            <tr>
+                <td><input type="text"value="Cancel"size="6"></td>
+            </tr>
+            
+        </table>
+    </form>
+</body> 
+</html>
