@@ -1,0 +1,61 @@
+body{
+    background-color: antiquewhite;
+}
+/* for pixels */
+/* h1{
+    font-size: 54px;
+    color:orange ;
+}
+p{
+    font-size: 36px;
+    color:blue ;
+}
+li{
+    font-size: 44px;
+    color:green ;
+} */
+
+/* percentage 100%=16px */
+/* h1{
+    font-size: 337.5%;
+    color:orange ;
+}
+p{
+    font-size: 275%; 
+    color:blue ;
+}
+li{
+    font-size: 225%;
+    color:green ;
+} */
+
+/* for em 1em=16px */
+/* h1{
+    font-size: 3.375em;
+    color:orange ;
+}
+p{
+    font-size: 2.25em;
+    color:blue ;
+}
+li{
+    font-size: 2.75em;
+    color:green ;
+} */
+
+/* for rem ,we can specify the ofnt siz of our choice */
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 5.4rem;
+    color:orange ;
+}  
+p{
+    font-size: 3.6rem;
+    color:blue ;
+}
+li{
+    font-size: 4.4rem;
+    color:green ;
+}

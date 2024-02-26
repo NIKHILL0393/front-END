@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(10,100,50);
+    display: grid;
+    place-items:center;
+}
+.a{
+    width:80%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:50px ;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+}
