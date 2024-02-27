@@ -1,0 +1,33 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#a{
+    font-size: 64px;
+    color:aqua;
+    text-align: center;
+}
+.b{
+    width:500px;
+    color: orange;
+    /* border: 5px solid yellow; */
+    /* border-top:10px solid red;
+    border-right:10px dotted yellow;
+    border-bottom:10px ridge green;
+    border-left:10px double blue; */
+    border: 10px dotted grey;
+    background-color:green;
+    padding: 50px 100px;
+}
+p{ height:1000px;
+    width:500px;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    line-height: 1.5;
+    /* background-color:green; */
+}
+div:hover{
+    width: 500px;
+    height: 1000px;
+    color:black; 
+    padding: auto;
+}
