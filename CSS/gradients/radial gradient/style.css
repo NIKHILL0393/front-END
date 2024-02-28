@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* radial gradient( function sets a radial gradient as background image */
+section{
+      width:100%;
+      height:100vh;
+    /* background-image: radial-gradient(circle,red 20%,yellow 30%,blue 30%); */
+    
+    /*create a repeating radial gradient  */
+    /* background-image: repeating-radial-gradient(red, blue,yellow 250px); */
+    
+    /* create a css only radial gradient that creates circular pattern of colors wut smooth transitions between them */
+    background-image: radial-gradient(
+        circle at center,
+        red 0%,
+        yellow 20%,
+        green 40%,
+        blue 60%,
+        brown 80%,
+        gold 100%
+    );
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color: green;
+    display: flex;
+    justify-content: start ;
+    align-items: center;
+    flex-direction: column;
+}
+#a{
+   padding: 40px 0 ;
+   font-weight: bold;
+   color: blue;
+   text-align: center; 
+   font-size: 54px;
+   margin: 10px auto;
+}
+p{
+    line-height: 1.5;
+    letter-spacing: 1px;   
+    font-size: 18px;
+}  
+.b{
+    width: 80%;
+    background-color: azure;
+    color: orange;
+    border: 10px solid red;
+    padding: 50px;
+    margin:10px auto ;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient( red,yellow); */
+    /* background-image: linear-gradient(to left, red,yellow); */
+    /* background-image: linear-gradient(90deg, red,yellow); */
+    /* background-image: linear-gradient(180deg, red,yellow); */
+    /* background-image: linear-gradient(to top right, red,yellow,green,blue); */
+    
+    /* create a repeating linear gradient in css */
+    background-image:repeating-linear-gradient(60deg, blue,red,green,yellow 50px);
+ 
+    /* add color overlay an image */
+    /* background-image: linear-gradient(to right top,
+    rgba(100,50,50,0.5)   
+   rgba(50,50,100,0.5)
+   rgba(50, 100, 50, 0.5)
+   rgba(200, 100, 100, 0.5)
+   url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FCSS3_logo_and_wordmark.svg%2F1200px-CSS3_logo_and_wordmark.svg.png&tbnid=a98o_cgtq00hQM&vet=12ahUKEwi5xO_izM6EAxUM16ACHTxqD3IQMygAegQIARBx..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCSS&docid=m95i5R440PM28M&w=1200&h=1693&itg=1&q=css&ved=2ahUKEwi5xO_izM6EAxUM16ACHTxqD3IQMygAegQIARBx"));
+   background-repeat: no-repeat;
+   background-size: cover; */
+}
+   
