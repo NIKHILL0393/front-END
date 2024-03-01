@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    font-family:Georgia, 'Times New Roman', Times, serif   ;
+  }
+
+  body {
+    display: grid;
+    place-items: center;
+  }
+
+  .a {
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    color:black;
+    position: fixed;
+    top: 0;
+  }
+  #b {
+    font-size: 6.2rem;
+    margin: 3rem 0;
+  }
+
+  .c {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, gold, green);
+  }
+
+  .c:nth-child(even) {
+    background: linear-gradient(to top,red, brown);
+  }
+
+
+  /* for sticky  */
+  .c a {
+    padding: 20px 40px;
+    background-color:orange;
+    color: blue;
+    font-size: 44px;
+    display: inline-block;
+    position: sticky;
+    top: 50%;
+  }
+
