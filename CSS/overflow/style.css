@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    font-family:'Courier New', Courier, monospace
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+  }
+  
+  #a {
+    font-size: 6.2rem;
+    color:black;
+    margin: 3rem 0;
+  }
+  
+  p {
+    line-height: 40px;
+    font-size: 2rem;
+  }
+  
+  .b {
+    width: 600px;
+    height: 300px;
+    box-shadow: 0px 5px 5px 2px red;
+    border: 5px solid blueviolet;
+    padding: 50px;
+   
+    /* hidden */
+    /* overflow:hidden; */
+    
+    /* scroll */
+    overflow-y:scroll ;
+    /* white-space:nowrap; */
+  }
+  
+  .c {
+    width: 600px;
+    height: 300px;
+    box-shadow: yellow;
+    border: 5px solid green ;
+    padding: 50px;
+    overflow: hidden ;
+ }
