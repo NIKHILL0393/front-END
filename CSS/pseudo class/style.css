@@ -1,0 +1,171 @@
+
+/*? 5: :hover - This pseudo-class is used for styling an element when a user hovers their mouse over it. */
+/* a:hover {    color: #A78295; Change text color on hover   } */
+
+/*? 6: :first-child - Selects the first child element of its parent. */
+
+/*? 7: :last-child - Selects the last child element of its parent. */
+
+/*? 8: :nth-child(n) - Selects elements based on their position within a parent element, where "n" is a numeric value. */
+
+/*? 9: :first-of-type - Selects the first element of its type within its parent. */
+
+/*? 10: :last-of-type - Selects the last element of its type within its parent. */
+
+/*? 11: :nth-of-type(n) - Selects elements of a specified type based on their position within a parent. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    color:aquamarine;
+    height: 100vh;
+  }
+  
+  .a{
+    background-color:brown;
+  }
+  
+  .b {
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+  }
+  
+  .t{
+    padding-bottom: 100px;
+  }
+  
+  .b .t {
+    height: 50vh;
+    background-color:white;
+    border-radius: 10px;
+     color: black;
+  }
+  
+  .c{
+    display: grid;
+    align-items: center;
+    gap: 6.4rem;
+  }
+  
+  .d {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .e h1 {
+    text-align: center;
+    font-size: 54px;
+  }
+  
+  .e p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 2rem 0 4rem 0;
+  }
+  
+  img {
+    max-width: 120%;
+    height: auto;
+  }
+  
+  .e a {
+    background-color:black;
+    display: inline-block;
+    padding: 10px 32px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .p,  .q {
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 48px;
+  }
+
+/* 1. Link (`a:link`): This is the default state for an unvisited link. */
+  
+  .e a:link {
+    color:yellow;
+  }
+  
+/* 2. Visited (`a:visited`): This state applies to a link that the user has already visited. */
+
+.e a:visited {
+    color: blue;
+  }
+  
+/* 3. Hover (`a:hover`): This state triggers when the user hovers their mouse pointer over a link. */
+
+.e a:hover {
+    color: green;
+  }
+  
+/* 4. Active (`a:active`): This state is triggered when the user clicks on a link. */
+
+.e a:active {
+    color:red;
+  }
+  
+ /*pseudo class  */
+
+/* for section p */
+
+ /* .p:first-child { 
+  color: red;
+}  */
+
+ /* .p ul:first-child { 
+  color: Red;
+}   */
+
+ .p p:nth-child(odd) {
+    color: orange;
+  }
+  
+.p p:nth-child(even) {
+    color: blue;
+  }
+  
+
+  .p li:first-of-type {
+    color: yellow;
+  }
+    .p li:last-of-type {
+    color: blue;
+  }
+  
+  .p li:nth-of-type(3) {
+    color: green;
+  }
+  
+  .p li:nth-child(odd) {
+    color: red;
+  } 
+
+  /* for section q  */
+  .q li:nth-child(odd){
+    color:black;
+  }
+  
+  .q li:first-of-type {
+    color:gold;
+  }
+  
+  .q li:last-of-type {
+    color: blue;
+  }
+  

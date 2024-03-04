@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color:blueviolet;
+    color: black;
+    height: 100vh;
+  }
+  
+  .b {
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+  }
+  
+  .c {
+    display: grid;
+    align-items: center;
+    gap: 64px;
+  }
+  
+  .d {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .e h1 {
+    font-size: 48px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    position: relative;
+  }
+
+  img {
+    max-width: 120%;
+    height: auto;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 10px solid brown;
+    color: white;
+    width: 200px;
+    text-align: center;
+  }
+ 
+   /* Before Pseudo element  */
+   .e h1::before {
+    content: " HTML ";
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: -20px;
+    font-size: 24px;
+    letter-spacing: 6px;
+    color: greenyellow;
+    border: 2 px solid grey;
+  }
+
+  /* After Pseudo elements  */
+  .e h1::after {
+    content: "JS ";
+    position: absolute;
+    right : -60px;
+    border : 2px solid red;
+    width : 60% ;
+    color:gold;
+  }
+  
+  .e p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin: 20px 0px 40px 0px ;
+  }
+  
+  .e p::first-letter {
+    font-size: 48px;
+    color: yellow;
+    font-weight:bold;
+  }
+  
+  .e p::first-line {
+    text-decoration:underline;
+  }
+  
+  .e p::selection {
+    background-color:orange;
+  }
+  
+  
+    
+  
+  
+  
