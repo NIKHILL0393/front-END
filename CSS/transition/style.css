@@ -1,0 +1,125 @@
+/** ------------------------------------- -->
+/**  TRANSITION IN CSS 
+/** ---------------------------------------- --> */
+
+/*? transition-property: Specifies which CSS properties should be transitioned.
+Example: Transitioning the color and background-color properties.
+.element {
+  transition-property: color, background-color;
+} */
+
+/*? transition-duration: Defines how long the transition should take to complete.
+Example: Transitioning over 1 second.
+.element {
+  transition-duration: 1s;
+} */
+/* it accept s and ms values too 
+Transition options: */
+
+/*? 3: transition-timing-function: Specifies the timing curve used for the transition.
+Example: Using ease-in-out for a smooth start and end.
+.element {
+  transition-timing-function: ease-in-out;
+} */
+
+/*? 4:transition-delay: Sets a delay before the transition starts.
+Example: Starting the transition after 0.5 seconds. */
+
+/** ------------------------------------- -->
+/**  NOTES + TIPS 
+/** ---------------------------------------- --> */
+
+/** shorthand property of all 4 is simply to write transition */
+/* property name | duration | easing function | delay */
+/*? transition: margin-right 4s ease-in-out 1s; */
+
+/** ---------------------------------------- --> */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times;
+  }
+  
+  body {
+    background-color: lightcoral;
+    height: 100vh;
+  }
+  
+  .b {
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+  }
+  
+  .c {
+    display: grid;
+    align-items: center;
+    gap: 64px;
+  }
+  
+  .d {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .e h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .e p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left:10px;
+    margin: 20px 0 40px 0;
+    color:blueviolet;
+  }
+  
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  a {
+    background-color: transparent;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    border: 5px solid red;
+    color: yellow;
+    width: 200px;
+    text-align: center;
+    
+    /* transition */
+    /* transition-property: width;
+    transition-duration: 0.5s;
+    transition: 2s ease-in;
+    transition-timing-function: linear;
+    transition-delay: 2s; */
+    transition: all 1s linear ;
+    
+  }
+  
+  .e a:hover {
+    background-color: black;
+    color: greenyellow;
+    width: 400px;
+    box-shadow: -5px -5px 10px greenyellow;
+  }
+  
+  img {
+    transition: scale 1s linear;
+  }
+  img:hover {
+    scale: 1.2;
+  }
+  
+  
