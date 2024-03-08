@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:blueviolet;
+  }
+  
+  .a {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  h1 {
+    padding: 50px;
+    color:red;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .t {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    box-shadow: 0 0 0px 15px yellow;
+    margin: 50px;
+    display: inline-block;
+    border-radius: 50%;
+
+    /* animation starts  */
+    animation-name: lefttoright;
+    animation-duration: 2s;
+    /* animation-delay: 1s; */
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  /* @keyframes lefttoright {
+    from {
+      translate: 0%;
+    }
+    to { 
+    translate : 90vw;
+   translate: calc(90vw - 100px);
+    }
+  }  */
+  
+  /*@keyframes lefttoright { 
+    0% {
+      translate: 0%;
+    }
+    50% {
+      translate: 50vw 50vh;
+    }
+    100% {
+      translate: calc(90vw - 100px);
+    }
+  } 
+   */
+  
+   @keyframes lefttoright {
+    0% {
+      background-color: pink;
+      transform: translate(200px, 0%);
+    }
+    25% {
+      background-color: black;
+      transform: translate(calc(90vw - 10%));
+    }
+    50% {
+      background-color: orange;
+      transform: translate(calc(90vw - 10%), 500px);
+    }
+    75% {
+      background-color:brown;
+      transform: translate(20%, 500px);
+    }
+    100% {
+      background-color: magenta;
+      transform: translate(20%, 0%);
+    }
+  }
+  
+  
