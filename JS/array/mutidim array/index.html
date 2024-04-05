@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Javascript  </title>
+        <script>
+        var ary=[
+            ["ram",20,"male","bcom"],
+            ["syham",19,"male","btech"],
+            ["mohit",18,"male","bba"],
+            ["rohit",10,"male","bsc"],
+        ];
+        document.write(ary.length);
+        document.write("<table border='5px' cellspacing='0'>");
+        for (var a=0;a<ary.length;a++){
+            document.write("<tr>")
+            for(var b=0;b<ary[a].length;b++){
+            document.write("<td>"+ ary[a][b] +"</td>");
+        }
+        document.write("</tr>");
+    }        
+             document.write("</table>")
+        </script>
+    </head>
+</html> 
