@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+            var age=[10,15,20,5,25];
+            document.write(age +"<br>");
+            
+            // some(if any of value consist ,true)
+            // var b =age.some(checkAdult);
+            
+            // every(checks all value to be true)
+            // var b =age.every(checkAdult);
+            
+            // find(determines first value which meets condition)
+            // var b =age.find(checkAdult);
+            
+            // findIndex(determines first index )
+            // var b =age.findIndex(checkAdult);
+            
+            // filter(determines all values which meet conditions)
+            var b =age.filter(checkAdult);
+            
+            document.write(b+"<br>");
+            function checkAdult(age){
+                return age>=18;
+            }
+        </script>
+    </head>
+</html>

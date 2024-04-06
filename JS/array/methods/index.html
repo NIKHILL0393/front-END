@@ -4,11 +4,9 @@
         <script>
         var a=["ram","shyam", "mohit ","preet","aman","kamal"];
         document.write(a+"<br><br>");
-       
         // sort
         a.sort();
         document.write(a+"<br><br>");
-        
         // reverse 
         a.reverse(); 
         document.write(a+"<br><br>");
@@ -19,16 +17,25 @@
 
         // pop
         a.pop();
-        document.write(a+"<br><br>");
-
-        // shift
+        document.write(a+"<br><br>");  // shift
         a.shift();
         document.write(a+"<br><br>");
 
         //unshift
         a.unshift("shyam"); 
         document.write(a+"<br><br>");
+         
+        // concate
+        var b=a.concat("chaman","jatin");
+        document.write(b);
 
+        // join
+        // var b=a.join("/");
+        // document.write(b);
+
+        // slice
+        var b=a.slice(5,7);
+        document.write(b+"<br><br>");
         </script>
     </head>
 </html> 

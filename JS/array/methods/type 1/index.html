@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Javascript  </title>
+        <script>
+        var a=["ram","shyam", "mohit ","preet","aman","kamal"];
+
+        // concate
+        // var b=a.concat("chaman","jatin");
+        // document.write(b);
+
+        // join
+        // var b=a.join("/");
+        // document.write(b);
+
+        // slice
+        // b = a.slice(1);
+        b=a.slice(-4,-1);
+        // b = a.slice(1,6);
+        document.write(b+"<br><br>");
+
+        // splcie (to add element in between of array )
+        // (index,place of/delete,updated value)
+        a.splice(2,2,"himanshu","vansh","ram");
+        document.write(a+"<br><br>");
+    
+        // isArray
+        // var a ="manish";
+        // if(Array.isArray(a)){
+        //     document.write("this is an array");
+        // }else{
+        //     document.write("this is  not an array");
+        // }
+
+        // indexOf
+        var b= a.indexOf("ram",2);
+        document.write(b+"<br>");
+        
+        // lastindexOf
+        var c= a.indexOf("vansh");
+        document.write(c+"<br>");
+
+        // includes
+        var c= a.includes("vansh");
+        document.write(c+"<br>");
+
+        </script>
+
+    </head>
+</html> 
