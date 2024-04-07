@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>JS</title>
+        <script>
+            var a={
+                fname:'ram',
+                lname:'kumar',
+                age:30,
+                city:'delhi',
+                 
+                salary:function(){
+                    return 50000 ;
+                },
+                fullname:function(){
+                return this.fname +" "+ this.lname;
+                }
+                
+            }
+            console.log(a);
+            document.write(a.salary());
+
+            document.write(a.fullname());
+        </script>      
+   </head>
+</html>
