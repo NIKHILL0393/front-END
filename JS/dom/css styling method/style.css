@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    color:aliceblue;
+    height: 100vh;
+}
+
+#b{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 32px 18px;
+    margin: 10px auto;
+    background-color:yellowgreen;
+    display: grid;
+    align-items: center;
+}
+  
+.t{
+    padding-bottom: 80px;
+  }
+  
+#b.t{
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+  
+.c{
+    display: grid;
+    align-items: center;
+    gap: 6.4rem;
+}
+  
+.d{
+    grid-template-columns: repeat(2, 1fr);
+}
+.e h1{
+    text-align: center;
+    font-size: 64px;
+    color: goldenrod;
+}
+  
+.e p{
+    letter-spacing: 1px;
+    margin: 2rem 0 4rem 0;
+    color: brown;
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.e a{
+    background-color:pink;
+    display: inline-block;
+    padding: 16px 32px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.p .q{
+    text-align: center;
+    text-transform: capitalize;
+}
+li{
+    list-style: none;
+    font-size: 32px;
+}
+  /*? Descendant Selector (Space): Selects an element that is a descendant of another element. */
+
+.p ul p{
+    font-weight: bold;
+    color:blue;
+}
+.p ul li{
+    font-weight: bold;
+    color:yellow;
+}
+
+/* ? Child Selector (>): Selects an element that is a direct child of another element. */ */
+.p > ul >li{
+    color:brown;
+}
+
+
+/*? Adjacent Sibling Selector (+): Selects an element that is immediately preceded by another element. */
+.p ul p + li {
+    color: pink;
+  }
+  
+/*? General Sibling Selector (~): Selects all elements that are siblings of another element and share the same parent. */
+.content-1 ul p ~ li {
+    color: purple;
+  }
+/*? Universal Selector (*): Selects all elements. */
