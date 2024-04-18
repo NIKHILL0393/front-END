@@ -7,15 +7,16 @@
 </head>
 <body>
     <button onclick="openWindow()">open window</button>
-    <button onclick="closeWindow()">close window</button>
-
+    <button onclick="resizeWindow()">resize window</button>
     <script>
         var myWindow;
         function openWindow(){
-            myWindow=  window.open("https://www.w3schools.com","","width=100px,heigth=100px,left=10px,top=10px"); 
+            myWindow=  window.open("","","width=100px,heigth=100px,left=10px,top=10px"); 
+            myWindow=document.write("<p>this is a  a paragraph</p>");        
          }
-        function closeWindow(){
-            myWindow.Close();
+        function  resizeWindow(){
+            // myWindow,resizeTo(400,400);
+            myWindow,resizeBy(200,200);
         }
     </script>
 </body>

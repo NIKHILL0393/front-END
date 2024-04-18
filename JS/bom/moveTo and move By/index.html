@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>   
+    <button onclick="openWindow()">open window</button>
+    <button onclick ="moveWindow()">Move Window</button>
+    <script>
+
+        var myWindow;
+        function openWindow(){
+            myWindow=  window.open("","","width=100px,heigth=100px"); 
+            myWindow=document.write("<p>this is a  a paragraph</p>");        }
+        function moveWindow(){
+            // myWindow.moveTo(100,100);
+            myWindow.moveBy(100,100);
+            myWindow.focus();
+         }
+    </script>
+</body>
+</html>

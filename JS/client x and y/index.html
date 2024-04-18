@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <style>
+        #a{
+            background:orange;
+            width: 300px;
+            height: 300px;
+            overflow: auto;
+            margin: 10px;
+            padding: 10px;
+            border: 10px solid purple;
+
+        }
+        #b{
+            width:300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid red;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Javascript </h2>
+    <div id ="a">
+        <div id="b"></div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet corrupti error, culpa reiciendis blanditiis sunt nostrum molestiae illum repellat officiis incidunt dolores dicta sequi ea omnis doloribus consequatur cupiditate dolore.
+        Perferendis debitis corrupti eaque itaque iure culpa ipsa voluptates dicta optio nam cumque, asperiores minima vero explicabo tempore magnam. Voluptas laudantium nam officiis quod nemo, tenetur nesciunt ratione totam modi.
+        Cumque similique enim earum vel necessitatibus asperiores illum quo nisi rerum quos in at accusamus eos laudantium placeat saepe, velit sint accusantium mollitia pariatur molestias esse officia ullam laborum. Quo?
+        Deserunt deleniti saepe ab nulla laudantium veniam, asperiores possimus, magni numquam odit quisquam harum eligendi id. Laborum, eaque! Minus ratione aliquid possimus placeat quaerat commodi vel perspiciatis doloremque eius nostrum.
+        Dolorem qui, ducimus fugiat mollitia nostrum officia optio itaque hic atque illum tempore ipsam tempora enim, dolores recusandae, repudiandae sed ut. Excepturi accusamus doloremque tempore nulla, aliquam qui ratione aperiam.
+        Itaque, blanditiis incidunt! Reiciendis amet corporis aspernatur expedita? Culpa temporibus amet quo aut. Numquam hic accusamus reiciendis delectus quia, vero provident harum atque nihil consequatur molestias nam, eaque quidem placeat?
+        Rerum aut exercitationem nam vero, provident facilis repudiandae deserunt maxime qui officiis excepturi ad nihil et amet iste quod, blanditiis voluptas accusantium repellat alias recusandae minima? Vitae soluta quod itaque.
+        Molestiae aliquam voluptas nam atque voluptatem, illum excepturi ullam, aperiam velit ut accusantium veniam error blanditiis. Aliquid ipsum eligendi numquam neque, repellendus rem expedita, nulla omnis asperiores fugiat, illo temporibus!
+        Ducimus unde nostrum dolorum perspiciatis aspernatur officia temporibus, eveniet, pariatur quas quisquam ea facere omnis! Unde praesentium consequatur earum ipsam sequi tempore veritatis voluptas suscipit laudantium omnis! Quod, harum dolor!
+        Voluptatum, tempore vero! Nesciunt, obcaecati cumque aliquam voluptatem ullam a nulla quibusdam et ad cum sapiente ea facere sequi! Beatae cum consequatur ratione quos assumenda labore odit molestiae dolores deserunt.
+    </div>
+
+    <script>
+        // var z= document.querySelector("#a");
+        // var height=z.clientHeight;
+        // var width=z.clientWidth;
+        // console.log("clientHeight :" +height);
+        // console.log("clientWidth :" +width);
+
+        // document.addEventListener('mousemove',function(e){
+            // var a=e.pageX;
+            // var b=e.pageY;
+            // console.clear();
+            // console.log("pageX:"+ a);
+            // console.log("pageY:"+ b);
+
+            // var a=e.screenX;
+            // var b=e.screenY;
+            // console.clear();
+            // console.log("screenX:"+ a);
+            //  console.log("screenY:"+ b);
+
+          var z=document.querySelector("#a");
+          z.addEventListener('mouseover',function(e){
+
+            var a=e.offsetX;
+            var b=e.offsetY;
+             console.clear();
+             console.log("offsetX:"+ a);
+             console.log("offsetY:"+ b);
+
+        });
+
+
+    </script>
+</body>
+</html>
