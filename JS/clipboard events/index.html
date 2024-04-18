@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        #myinput{
+            font-size: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Javascript: Clipboard Events</h1>
+    <input type="text" id="myinput">
+    <script>
+        var z=document.querySelector("#myinput");
+           z.addEventListener('copy',function(){
+           console.clear();
+           console.log("you copied text");
+           z.style.backgroundColor="orange";
+        });
+           z.addEventListener('cut',function(){
+           console.clear();
+           console.log("you cut text");
+           z.style.backgroundColor="white";
+
+        });
+           z.addEventListener('paste',function(){
+           console.clear();
+           console.log("you paste text");
+           z.style.backgroundColor="green";
+
+        });
+    </script> 
+</body>
+</html>

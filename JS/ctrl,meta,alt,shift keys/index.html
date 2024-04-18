@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <style>
+        #a{
+            width: 400px;
+            height:300px;
+            border: 1px solid red;
+            background:yellow ;
+            margin:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="a"></div>
+    <script>
+        var z=document.querySelector("#a");
+        z.addEventListener('click',function(e){
+        console.clear();
+        var k;
+        switch(true){
+            case e.metaKey:
+            k="meta key";
+            break;
+            case e.ctrlKey:
+            k="ctrl key";
+            break;
+            case e.shiftKey:
+            k="shift key";
+            break;
+            case e.altKey:
+            k="alt key";
+            break;
+            default:
+            k="No key have been pressed";
+                break;
+        }
+            console.log(k);
+        // var ctrl=e.ctrlKey;
+        // console.log(ctrl)
+        // if(ctrl){
+        // console.log('you press control key');
+        // }
+        // else{
+        //     console.log('you  have not press control key');
+        // }
+
+        // var shift=e.shiftKey;
+        // console.log(shift)
+        // if(shift){
+        // console.log('you  have press shift key');
+        // }
+        // else{
+        //     console.log('you  have not press shift key');
+        // }
+        
+        // var alt=e.altKey;
+        // console.log(alt)
+        // if(alt){
+        // console.log('you  have press alt key');
+        // }
+        // else{
+        //     console.log('you  have not alt control key');
+        // }
+       
+        // var meta=e.metaKey;
+        // console.log(meta)
+        // if(meta){
+        // console.log('you  have press meta key');
+        // }
+        // else{
+        //     console.log('you  have not meta control key');
+        // }
+        
+    });
+    </script>
+</body>
+</html>
