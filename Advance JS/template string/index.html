@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template String </title>
+</head>
+<body>
+     <script>
+        let firstName="ram ";
+        let lastName=" kumar";
+        // document.write("Hi "+"how are you "+user);
+        function fullname(firstName,lastName){
+            return `${firstName} ${lastName}`;
+        }
+        let hello=`hello ${fullname(firstName,lastName)}`;
+        document.write(hello);
+        console.log(hello);
+     </script>
+</body>
+</html>

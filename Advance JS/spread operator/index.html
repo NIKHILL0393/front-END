@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operator</title>
+</head>
+<body>
+    <script>
+        // function sum(name,course,...args){
+        // console.log(arguments);
+
+        // document.write(`hello ${name} of ${course}:`);
+       
+        // let sum =0;
+        // for(let i in args){
+        //     sum+=args[i];
+        // }
+        
+        // document.write(sum + "<br>");
+        // }
+        // var arr=[10,20,30]
+        // sum("ram","btech",...arr)
+
+        var arr1=[10,28,22,48];
+        var arr2=[53,35,23];
+        var arr3=[...arr1,54,...arr2];
+        console.log(arr3);
+        document.write(arr3);
+
+    </script>
+</body>
+</html>
