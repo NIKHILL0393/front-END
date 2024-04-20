@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Methods</title>
+</head>
+<body>
+    <script>
+        class student{
+           constructor(name,age){
+            this.studentname=name;
+            this.studentage=age;
+            console.log("constructor Function");
+           }
+           hello(){
+            console.log(`hello  ${this.studentname} 
+             your age is  ${this.studentage}`);
+           }
+           static staticMethod(){
+              console.log("static function");
+           }
+        }
+        let a= new student("ram kumar",30);
+        a.hello();
+        a.staticMethod();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+</head>
+<body>
+    <script>
+        class employee{
+            constructor(name,age ,salary){
+                this.empname=name;
+                this.empage=age;
+
+            }
+            info(){
+             document.write(`<h2>Employee Class</h2>
+             Name: ${this.empname}<br>
+             Age:${this.empage}<br>`);
+            }
+        }
+        class manager extends employee{
+           
+            info(){
+             document.write(`<h2>Manager Class</h2>
+             Name: ${this.empname}<br>
+             Age:${this.empage}<br>`);
+            }
+        }
+        let a=new employee("ram kumar",40);
+        let b=new manager("sunil",30);
+
+        a.info();
+        b.info();
+
+    </script>
+</body>
+</html>
